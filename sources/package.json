@@ -1,0 +1,36 @@
+{
+  "name": "typescript-boilerplate-for-rage-mp",
+  "version": "0.0.1",
+  "description": "TypeScript with RAGE:MP Made Easy",
+  "homepage": "https://github.com/kwert1k887/Typescript-Boilerplate-for-RAGE-MP#readme",
+  "bugs": {
+    "url": "https://github.com/kwert1k887/Typescript-Boilerplate-for-RAGE-MP/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kwert1k887/Typescript-Boilerplate-for-RAGE-MP.git"
+  },
+  "license": "ISC",
+  "author": "kwert887",
+  "type": "module",
+  "scripts": {
+    "build": "npm run build:server && npm run build:client && npm run build:cef",
+    "build:server": "node esbuild.config.js server",
+    "build:client": "node esbuild.config.js client",
+    "build:cef": "vite build",
+    "dev": "vite"
+  },
+  "dependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@ragempcommunity/types-cef": "^2.1.9",
+    "@ragempcommunity/types-client": "^2.1.9",
+    "@ragempcommunity/types-server": "^2.1.9",
+    "@types/node": "^22.13.4",
+    "esbuild": "^0.25.0",
+    "typescript": "^5.7.3",
+    "vite": "^6.1.1"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "typescript-boilerplate-for-rage-mp",
+  "version": "0.0.2",
+  "description": "TypeScript with RAGE:MP Made Easy",
+  "homepage": "https://github.com/kwert1k887/Typescript-Boilerplate-for-RAGE-MP#readme",
+  "bugs": {
+    "url": "https://github.com/kwert1k887/Typescript-Boilerplate-for-RAGE-MP/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kwert1k887/Typescript-Boilerplate-for-RAGE-MP.git"
+  },
+  "license": "ISC",
+  "author": "kwert887"
+}

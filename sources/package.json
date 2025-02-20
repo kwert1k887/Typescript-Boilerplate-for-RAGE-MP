@@ -17,8 +17,7 @@
     "build": "npm run build:server && npm run build:client && npm run build:cef",
     "build:server": "node esbuild.config.js server",
     "build:client": "node esbuild.config.js client",
-    "build:cef": "vite build",
-    "dev": "vite"
+    "build:cef": "vite build"
   },
   "dependencies": {
     "@vitejs/plugin-vue": "^5.2.1",
